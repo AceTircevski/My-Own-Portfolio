@@ -114,11 +114,11 @@ h4 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: rgb(229, 241, 241);
+  background-color: lightblue;
 }
 
 .information:nth-child(even) {
-  background-color: lightgrey;
+  background-color: white;
 }
 
 ul {
@@ -147,13 +147,6 @@ li {
   font-weight: bold;
 }
 
-.information:nth-child(odd) {
-  background-color: lightgrey;
-}
-
-.information:nth-child(even) {
-  background-color: lightgrey;
-}
 
 @media (min-width: 1025px){
 .hero-image {
@@ -166,5 +159,5 @@ padding: 60px 130px;
 .h4 {
 font-size: 30px;
 
-}
+ }
 }
