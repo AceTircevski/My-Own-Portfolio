@@ -10,7 +10,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  border: 3px solid #3c4763;
+  border: 3px solid white;
  }
 
 .top {
@@ -146,7 +146,7 @@ li {
 }
 
 .container {
-  background-color:  rgb(159, 40, 40);
+  background-color: rgba(38, 4, 4, 0.88);
   height: 150px;
   display: flex;
   flex-direction: column;
@@ -154,8 +154,6 @@ li {
   align-items: center;
   text-align: center;
   font-weight: bold;
-  
-  
 }
 
 .container p{
