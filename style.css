@@ -146,7 +146,7 @@ li {
 }
 
 .container {
-  background-color: #992e29;
+  background-color:  rgb(159, 40, 40);
   height: 150px;
   display: flex;
   flex-direction: column;
@@ -155,10 +155,11 @@ li {
   text-align: center;
   font-weight: bold;
   
+  
 }
 
 .container p{
-color: rgb(170, 184, 155);
+color:  rgb(255,255,255);
 }
 
 
