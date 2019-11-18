@@ -10,7 +10,6 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  border: 3px solid white;
 }
 
 .top {
@@ -153,12 +152,14 @@ a {
   justify-content: center;
 }
 .pink-tags{
-margin: 10px;
+margin: 2px;
+}
 
+.other-projects{
+padding: 20px;
 }
 
 .pink-tags p {
-  padding: 3px 10px;
   color:  rgb(20, 22, 22);
   display: inline;
   margin: 5px;
@@ -215,3 +216,14 @@ p{
 }
 
 
+
+@media (max-width: 1024px) and (min-width: 668px){
+#featuredProjects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+ }
+
+}
