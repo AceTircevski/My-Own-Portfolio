@@ -209,7 +209,9 @@ p{
  color:rgb(74, 78, 80);
 }
 
-
+.footer p,a {
+  color:rgb(74, 78, 80);
+}
 
 
 @media (-width: 1024px) and (min-width: 668px){
