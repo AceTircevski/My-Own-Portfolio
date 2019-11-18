@@ -161,7 +161,7 @@ margin: 10px;
 
 .pink-tags p {
   padding: 3px 10px;
-  color: rgb(20, 22, 22);
+  color:  rgb(20, 22, 22);
   display: inline;
   margin: 5px;
   font-size: 14px;
@@ -207,9 +207,10 @@ li {
   background: none;
 }
 
-.footer p {
-  color: rgb(255, 255, 255);
+.footer p,a {
+  color: rgb(199, 186, 186);
 }
+
 
 @media (-width: 1024px) and (min-width: 668px){
 .project-image {
