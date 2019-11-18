@@ -189,7 +189,7 @@ li {
 }
 
 .container {
-  background-color:   rgba(246, 233, 23);
+  background-color: rgba(38, 4, 4, 0.88);
   height: 150px;
   display: flex;
   flex-direction: column;
@@ -197,14 +197,14 @@ li {
   align-items: center;
   text-align: center;
   font-weight: bold;
-  color: #FDFCFC rgb(253, 252, 25);
 }
 
 .container footer {
   display: flex;
   flex-direction: column;
+  background: none;
   
- }
+}
 
 p{
  color:rgb(74, 78, 80);
@@ -215,8 +215,3 @@ p{
 }
 
 
-@media (-width: 1024px) and (min-width: 668px){
-.project-image {
-width: 100%;
-}
-}
