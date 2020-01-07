@@ -19,6 +19,11 @@ body {
   background-size: cover;
 }
 
+.circles img {
+  height: 30px;
+  width: auto;
+}
+
 .icons {
   display: flex;
   flex-direction: row;
@@ -65,8 +70,6 @@ h5 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 17px;
-  
-  
 }
 
 .project-box p {
@@ -106,10 +109,8 @@ a {
   border-radius: 5px;
   margin: 40px 0 5px 0;
   width: 300px;
- 
-  
+  height: 400px;
 }
-
 
 .skills {
   display: flex;
@@ -122,8 +123,6 @@ a {
   margin: 10px;
   width: 40%;
 }
-
-
 
 .hero-text {
   margin: 20px;
@@ -151,16 +150,16 @@ a {
   flex: 0 48%;
   justify-content: center;
 }
-.pink-tags{
-margin: 2px;
+.pink-tags {
+  margin: 2px;
 }
 
-.other-projects{
-padding: 20px;
+.other-projects {
+  padding: 20px;
 }
 
 .pink-tags p {
-  color:  rgb(20, 22, 22);
+  color: rgb(20, 22, 22);
   display: inline;
   margin: 5px;
   font-size: 14px;
@@ -204,26 +203,21 @@ li {
   display: flex;
   flex-direction: column;
   background: none;
-  
 }
 
-p{
- color:rgb(74, 78, 80);
+p {
+  color: rgb(225, 118, 12);
 }
 
-.footer p,a {
-  color:rgb(74, 78, 80);
+footer a {
+  color: rgb(225, 118, 12);
 }
 
-
-
-@media (max-width: 1024px) and (min-width: 668px){
-#featuredProjects {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
- }
-
+@media (max-width: 1024px) and (min-width: 668px) {
+  #featuredProjects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
